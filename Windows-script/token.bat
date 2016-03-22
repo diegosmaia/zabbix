@@ -11,7 +11,6 @@ for /f "tokens=1* delims=:" %%a in ('findstr /n .* "%2"') do (
 
 )
 
-rem echo "%teste%"
 call :Strip %teste%
 goto :EOF
 
